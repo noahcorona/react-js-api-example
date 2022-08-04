@@ -1,7 +1,7 @@
 {
   "name": "api-example",
   "version": "0.1.0",
-  "homepage": "https://noahcorona.github.io/react-gh-pages",
+  "homepage": "https://noahcorona.github.io/react-js-api-example",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
