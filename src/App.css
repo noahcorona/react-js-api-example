@@ -1,0 +1,68 @@
+.App {
+  color: white;
+  padding: 1em;
+}
+
+header {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.Body {
+  color: white;
+  min-width: 390px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.dim-text {
+  color: #aaa;
+}
+
+/*
+
+  Search result styles
+
+ */
+
+.search-result-container {
+  background-color: #222;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 1em;
+  padding: 1em 1em 1em 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.search-result-container p {
+  display: block;
+}
+
+.search-result-info-area {
+  text-align: left;
+  padding: 1em 1em 1em 2em;
+}
+
+.search-result-container img {
+  min-width: 200px;
+}
+
+.page-item.active .page-link {
+  background-color: #1B8353FF;
+  border-color: #1B8353FF;
+  color: #fff;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.page-item > a {
+  color: #222;
+}
+
+.page-item > a:hover {
+  background-color: #50b789;
+  border-color: #1B8353FF;
+  color: #fff;
+}
